@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/movie_spark_web.iml" filepath="$PROJECT_DIR$/movie_spark_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark_movie_web.iml" filepath="$PROJECT_DIR$/spark_movie_web.iml" />
+    </modules>
+  </component>
+</project>

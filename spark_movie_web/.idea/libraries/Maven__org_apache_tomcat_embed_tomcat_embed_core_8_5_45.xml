@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.45">
+    <CLASSES>
+      <root url="jar://D:/apache-maven-3.8.1/RepMaven/org/apache/tomcat/embed/tomcat-embed-core/8.5.45/tomcat-embed-core-8.5.45.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/apache-maven-3.8.1/RepMaven/org/apache/tomcat/embed/tomcat-embed-core/8.5.45/tomcat-embed-core-8.5.45-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/apache-maven-3.8.1/RepMaven/org/apache/tomcat/embed/tomcat-embed-core/8.5.45/tomcat-embed-core-8.5.45-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

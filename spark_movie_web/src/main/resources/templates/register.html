@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/reg.css}" />
+</head>
+<body>
+<div class="tocenter">
+    <form th:action="@{/user/register}" method="post">
+        <table>
+            <tr>
+                <td colspan="2" class="message">用户注册</td>
+            </tr>
+            <tr>
+                <td class="tdright">手机号</td>
+                <td><input type="text" name="loginName" placeholder="手机号"></td>
+            </tr>
+            <tr>
+                <td class="tdright">姓名</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td class="tdright">密码</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td class="tdright">确认密码</td>
+                <td><input type="password" name="confirmPassword"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><p style="color: red" th:text="${register_msg}"></p></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center">已有账号？&nbsp;&nbsp;&nbsp;<a th:href="@{/login.html}" target="bottom">去登录</a></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                        type="submit" value="注册">&nbsp;&nbsp;<input type="reset" value="重置"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
